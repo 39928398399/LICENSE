@@ -9,6 +9,7 @@ snake = pg.rect.Rect([0, 0, TILE_SIZE - 2, TILE_SIZE - 2])
 snake.center = get.random.position()
 length = 1
 segments = [snake.copy()]
+snake_dir = (0, 0)
 screen = pg.display.set_mode([WINDOW] * 2)
 clock = pg.time.Clock()
 
